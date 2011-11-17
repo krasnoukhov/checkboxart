@@ -1,0 +1,55 @@
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+.start {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  height: 34px;
+  margin-top: -27px;
+  text-align: center;
+}
+  .start h1 {
+    color: #666;
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .start input {
+  }
+
+.movie {
+  width: 800px;
+  height: 560px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -400px;
+}
+
+  .movie input {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 2px 2px;
+    padding: 0px;
+  }
+  
+  
+  .movie input.hidden {
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity = 0);
+  }
+  
+  .movie ins {
+    display: block;
+    clear: both;
+    font-size: 1px;
+    height: 1px;
+  }

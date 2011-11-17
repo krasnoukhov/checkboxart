@@ -1,0 +1,132 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html,body{
+  width: 100%; height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Helvetica";
+}
+
+input{font-family: "Helvetica";}
+
+.clr{ clear: both; display: block; font-size: 1px; }
+.h {display: none}
+
+.flt-left {float: left; display: inline}
+.flt-rght {float: right; display: inline}
+
+.blck{
+  width: auto;
+  display: block;
+  float: none;
+  clear: both;
+}
+
+.abs{position: absolute;}
+
+/* text style */
+.u {text-decoration: underline !important}
+.no-u {text-decoration: none !important}
+.b {font-weight: bold}
+
+sup{font-size: 50%; vertical-align:top;}
+sub{font-size: 50%; vertical-align:bottom;}
+
+/* margin and padding styles and blocking*/
+.mt20 {margin-top: 20px;}
+.mb20 {margin-bottom: 20px;}
+.i0{border: none; margin: 0; display: block;}
+
+/* font-size */
+.fsize-1px{font-size: 1px;}
+.fsize-2px{font-size: 2px;}
+.fsize-3px{font-size: 3px;}
+.fsize-4px{font-size: 4px;}
+.fsize-5px{font-size: 5px;}
+.fsize-6px{font-size: 6px;}
+.fsize-7px{font-size: 7px;}
+.fsize-8px{font-size: 8px;}
+.fsize-9px{font-size: 9px;}
+.fsize-10px{font-size: 10px;}
+.fsize-11px{font-size: 11px;}
+.fsize-12px{font-size: 12px;}
+.fsize-13px{font-size: 13px;}
+.fsize-14px{font-size: 14px;}
+.fsize-15px{font-size: 15px;}
+.fsize-16px{font-size: 16px;}
+.fsize-17px{font-size: 17px;}
+.fsize-18px{font-size: 18px;}
+.fsize-19px{font-size: 19px;}
+.fsize-20px{font-size: 20px;}
+.fsize-38px{font-size: 30px;}
+
+/* opacity */
+.img-op-100 {filter: none; -moz-opacity:1.0; opacity: 1.0}
+.img-op-70 {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70); -moz-opacity:0.7; opacity: 0.7}
+.img-op-60 {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); -moz-opacity:0.6; opacity: 0.6} 
+.img-op-50 {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); -moz-opacity:0.5; opacity: 0.5} 
+.img-op-0 {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); -moz-opacity:0; opacity: 0} 
+
+/* links */
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+  text-decoration: underline;
+  color: #000;
+}
+
+a:hover{
+  text-decoration: none;
+}
